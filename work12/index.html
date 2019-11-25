@@ -1,27 +1,17 @@
 <!DOCTYPE html>
-
 <html>
-
-
-
-<meta charset="UTF-8">
-
-<title>张麒的万年历</title>
-
-<link rel="stylesheet" type="text/css" href=" index. css">
-
+<head>
+    <meta charset="utf-8" />    
+    <title>张麒的万年历</title> 
+    <link rel ="stylesheet" type="text/css" href="index.css">
 </head>
-
 <body>
-<div class="selyear">
-
-<span class="preyear" id="preyear" data-year="" onclick=" setCalendar(this.dataset.year)"></span>
-
-<span id="curyear"></span>
-
-<span class="nextyear" id="nextyear" data-year="" onc lick=" setCalendar(this.dataset.year)"></span>
-
-<div class="box" id=" cal"></div>
+    <div class="selyear">
+        <span class="preyear" id="preyear" data-year="" onclick="setCalendar(this.dataset.year)"><去年</span>
+        <span id="curyear">2019</span>
+        <span class="nextyear" id="nextyear" data-year="" onclick="setCalendar(this.dataset.year)">明年>></span>
+    </div>
+    <div class="box" id="cal"></div>
 </body>
 <script src="calendar.js"></script>
 <script src="index.js"></script>

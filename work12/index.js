@@ -1,11 +1,6 @@
+let year = new Date().getFullYear()
+document.getElementById("cal").innerHTML =calendar(year)
 
-let year = new Date(). getFullYear()
- //调用calender函数， 设置ca l内容显示年历
-document. getElementById("cal"). innerHTML = calendar(year)
-
-function setCalendar(year){
-//设置preyear
-//设置curyear
-//设置nextyear
-//设置cal显示年历
+function setCalender(year){
+    
 }

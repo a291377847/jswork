@@ -1,31 +1,35 @@
-
-body {
-text-align: center ;
+body{
+    text-align: center;
 }
 
-.selyear {
-margin: 0 auto ;
-width: 720px;
+.selyear{
+    margin : 0 auto;
+    width: 720px;
 }
+
 .preyear{
-float: left;
+    float: left;
 }
-.nextyear {
-float: right;
+
+.nextyear{
+    float: right;
 }
-.box {
-margin: 0 auto;
-width: 720px;
+
+.box{
+    margin: 0 auto;
+    width: 720px;
 }
-.title {
-background: #ccc;
+
+.title{
+    background: #ccc;
 }
-table {
-height: 160px ;
-width: 160px;
-font-size: 12px;
-text-align:center;
-float:left;
-margin: 10px;
-font-family: arial;
+
+table{
+    height: 160px;
+    width: 160px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    font-family: arial;
 }
