@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>张麒的表单验证</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="box-body">
+            <form>
+                <table>
+                    <tr>
+                        <th>用户名：</th>
+                        <td><input type="text" name="username" autocomplete='new-password' placeholder="长度4~12，英文大小写字母">
+                        </td>
+                        <td>
+                            <div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>密 码：</th>
+                        <td><input type="text" name="pwd" autocomplete='new-password' placeholder="长度6~20，大小写字母，下划线或数字">
+                        </td>
+                        <td>
+                            <div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>确认密码：</th>
+                        <td><input type="text" name="repwd" autocomplete='new-password' placeholder="请再次输入密码">
+                        </td>
+                        <td>
+                            <div></div>
+                        </td>
+                        <tr>
+                            <th>手机号码：</th>
+                            <td><input type="text" name="tel" autocomplete='new-password' placeholder="13、14、15、16、17、18、开头的手机号码">
+                            </td>
+                            <td>
+                                <div></div>
+                            </td>
+                            <tr>
+                                <th>邮箱：</th>
+                                <td><input type="text" name="eamli" autocomplete='new-password' placeholder="用户名@域名（域名后缀至少2个字符）">
+                                </td>
+                                <td>
+                                    <div></div>
+                                </td>
+                            </tr>
+                            <td colspan="3"><input type="submit" value="注册"></td>
+                </table>
+            </form>
+        </div>
+    </body>
+   <script src="index.js"></script>
+</html>
